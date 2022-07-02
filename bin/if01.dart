@@ -15,5 +15,5 @@ if(a<b&&b>c&&a>c){
 
 
 void main() {
-  print(func(5,8,2));
+  print(func(6,8,2));
 }
