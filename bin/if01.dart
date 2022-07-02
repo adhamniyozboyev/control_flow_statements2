@@ -7,6 +7,13 @@ Args:
     c: Third number.
 Returns:
     int: return answer.
-*/
+*/int func(int a, int b, int c){
+  int x=0;
+if(a<b&&b>c&&a>c){
+}return b;}
+
+
+
 void main() {
+  print(func(5,8,2));
 }
