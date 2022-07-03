@@ -8,5 +8,28 @@ Args:
 Returns:
     int: return answer.
 */
-void main() {
+  int func(int a,int b, int c){
+  
+  if(a<b&&a<c){
+ return a;
+  }
+    
+
+   
+  if(a>b&&b<c){
+  return b;
+ } 
+ if(a>c&&b>c){  
+   
+  return c;}else return 98;
+  }
+  
+
+  
+ 
+
+  
+
+void main() {print(func(6,3,1,));
 }
+
