@@ -8,16 +8,14 @@ Args:
 Returns:
     int: return answer. */
 int func(int a,int b,int c){
-  if(a>b&&a>c){
+  if(a>b&&b>c){
     return b;
   }
-  if(a<b&&a<c){
+  if(a<b&&a>c){
     return a;
   }
-  if(a>c&&b>c){
-    return c;
-  };
-  return 0;
+  
+  return c;
 }
 void main() {
   print(func(4,8,7));
