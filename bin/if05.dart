@@ -12,15 +12,15 @@ int func(n){
   int c=n~/10%100~/10;
   int d=n~/10~/100%10;
   int e=n~/10~/100~/10;
-  if(a>b&&b>c&&c>d&&d>e){
+  if(a>b&&a>c&&a>d&&a>e){
     return a;
-  }else if (a<b&&b>c&&c>d&&d>e){
+  }else if (b>a&&b>c&&b>d&&b>e){
     return b;
-  }else if (a>b&&b<c&&c>d&&d>e){
+  }else if (c>a&&b<c&&c>d&&c>e){
     return c;
-  }else if(a<b&&b<c&&c<d&&d>e){
+  }else if(d>a&&d>b&&d>c&&d>e){
     return d;
   }return e;
 }
-void main() {print(func(34857));
+void main() {print(func(96850));
 }
