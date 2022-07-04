@@ -14,6 +14,32 @@ Args:
 Returns:
     str: return answer. 
 */
+ 
 
-void main() {
+String func(int a,){
+  String day= "";
+  if (a==1){
+  day ="Monday";
+    return day; 
+  }else if(a==2){
+  day="Tuesday";return day;
+  }else if(a==3){
+  day="Wednesday";
+  return day;
+  }else if(a==4){
+  day="Thrusday";
+  return day;
+  }else if(a==5){
+    day="Friday";return day;
+  
+  }else if(a==6){
+    day="Saturday";return day;
+  }else if(a==7){
+    day="Sunday";return day;
+  }
+ return day;
+}
+
+void main() {print(func(7));
+
 }
